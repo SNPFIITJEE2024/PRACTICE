@@ -560,5 +560,150 @@
 # print(1 and 7 and 6)
 
 
-print(not(2))
-print(not(not(2)))
+# print(not(2))
+# print(not(not(2)))
+
+# x = int(input("enter the no.: \n"))
+# if x%2==0:
+#     print("even no.")
+# else:
+#     print("odd no.")
+
+# x=int(input("enter the no.\n"))
+# if x>5:
+#         print("SNP")
+#         print("FIITJEE")
+#         print("GAURAV")
+# print("SNPFIITJEEGAURAV")
+
+# x = int(input("enter first no."))
+# y = int(input("enter second no."))
+# z = int(input("enter third no."))
+# if x > y:
+#     if x > z:
+#         print(x,"is greatest")
+#     else:
+#         print(y,"is greatest")
+# else:
+#     if y >z:
+#         print(y,"is greatest")
+#     else:
+#         print(z,"is greatest")
+
+# x=int(input("enter 1st no."))
+# y=int(input("enter 2nd no."))
+# z=int(input("enter 3rd no."))
+# if x>y and x>z:
+#     print(x,"is greatest")
+# if y>x and y>z:
+#     print(y,"is greatest")
+# else:
+#     print(z,"is greatest")
+
+# x=int(input("enter 1st no."))
+# y=int(input("enter 2nd no."))
+# z=input("enter any one of operation: ")
+# if z == "+":
+#     print("sum=", x+y)
+# elif z == "-":
+#     print("diff=", x-y)
+# elif z == "*":
+#     print("mul=", x*y)
+# elif z=="/":
+#     print("div=", x/y)
+# else:
+#     print("mod=", x%y)
+
+# x=int(input("enter the year: \n"))
+# if x < 0:
+#     print("invalid year", x)
+# else:
+#     if x%400==0:
+#         print(x,"is century leap year")
+#     elif x%100 ==0:
+#         print(x,"is not leap year")
+#     elif x%4==0:
+#         print(x,"is normal leap year")
+#     else:
+#         print(x,"is not leap year")
+
+# x=int(input("enter the year: \n"))
+# if x < 0:
+#     print("invalid year", x)
+# else:
+#     if x%400==0:
+#         print(x,"is century leap year")
+#     elif x%100 !=0 and x%4==0:
+#         print(x,"is normal leap year")
+#     else:
+#         print(x,"is not leap year")
+
+# from math import sqrt
+# a=float(input("enter a: \n"))
+# b=float(input("enter b: \n"))
+# c=float(input("enter c: \n"))
+# d = b**2 - 4*a*c
+# if d > 0:
+#     root1 = (-b+sqrt(d))/(2*a) 
+#     root2 = (-b-sqrt(d))/(2*a)
+#     print(f"real and unique roots exists: {root1} , {root2}, " )
+# elif d == 0:
+#     print(f"real and same roots exits: {-b/(2*a)}" )
+# else:
+#     real_part = (-b/(2*a)) 
+#     imaginary_part = sqrt(-d)/(2*a)
+#     print("complex roots exists:  , {real_part} + {imaginary_part} , {real_part} - {imaginary_part}")
+
+# first_name = "srinivasa"
+# last_name = "patra"
+# print(last_name," ",first_name)
+
+# first_name = input("enter firt name: ")
+# last_name = input("enter second name: ")
+# print(last_name, first_name)
+
+# first_name = input("enter firt name: ")
+# last_name = input("enter second name: ")
+# print(last_name +" "+ first_name)
+
+# values = input("enter comma separated values: ")
+# list1 = values.split(",")
+# print(list1)
+# tuple1 = tuple(list1)
+# print(tuple1)
+
+# colors = ["red", "green", "blue", "yellow", "purple"]
+# print("first color: ", colors[0])
+# print("last color: ", colors[-1])
+# print("middle color: ", colors[5//2])
+
+# n=int(input("enter the value of n"))
+# n1=n
+# n2=n*n
+# n3=n*n*n
+# print(n1+n2+n3)
+
+# nums=[1,2,4,3,7,4,9,4,17,4,19,4]
+# nums.count(4)
+# print(nums.count(4))
+
+# nums=[1,2,4,3,7,4,9,4,17,4,19,4]
+# x=nums.count(4)
+# print(x)
+
+# from datetime import date
+# start_date = date(2023, 9, 21)
+# end_date  = date(2024, 1, 1)
+# x=end_date-start_date
+# print(x)
+
+# n=int(input("enter the no."))
+# string=input("enter the string")
+# x=string[0:2]*n
+# print(x)
+
+# letter=input("enter the letter")
+# if letter in 'aeiouAEIOU': 
+#     print("vowel")
+# else:
+#     print("consonant")
