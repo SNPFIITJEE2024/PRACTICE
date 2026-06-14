@@ -707,3 +707,51 @@
 #     print("vowel")
 # else:
 #     print("consonant")
+
+# '''list1=['hello','hi','bye','fuckoff']
+# result=''.join(list1)
+# print(type(result))
+# print("result after concatenation is: ", result)'''
+
+# result=""
+# list1=['hello','hi','bye','fuckoff']
+# for i in range(len(list1)):
+#     result+=list1[i]
+# print("concatenated string: ", result)
+
+# a=int(input("enter 1st no."))
+# b=int(input("enter 2nd no."))
+# c=int(input("enter 3rd no."))
+# if a==b or b==c or a==c:
+#     sum=0
+# else:
+#     sum=a+b+c
+# print(sum)
+
+# a=int(input("enter 1st no.: "))
+# b=int(input("enter 2nd no.: "))
+# if 15<a+b<20:
+#     sum=20
+# else:
+#     sum=a+b
+# print(sum)
+
+# a=int(input("enter 1st no.: "))
+# b=int(input("enter 2nd no.: "))
+# if 15<=a+b<=20:
+#     sum=20
+# else:
+#     sum=a+b
+# print(sum)
+
+a=input("enter 1st no.:")
+b=input("enter 2nd no.:")
+if a.isdigit() and b.isdigit():
+    sum=int(a)+int(b)
+print(sum)
+
+a=input("enter 1st no.: ")
+b=input("enter 2nd no.: ")
+if type(a) and type(b) is int:
+    sum=a+b
+print(sum)
