@@ -744,14 +744,29 @@
 #     sum=a+b
 # print(sum)
 
-a=input("enter 1st no.:")
-b=input("enter 2nd no.:")
-if a.isdigit() and b.isdigit():
-    sum=int(a)+int(b)
-print(sum)
+# '''a=input("enter 1st no.:")
+# b=input("enter 2nd no.:")
+# if a.isdigit() and b.isdigit():
+#     sum=int(a)+int(b)
+#     print(sum)
+# else:
+#     print("both integers are not integers")'''
 
-a=input("enter 1st no.: ")
-b=input("enter 2nd no.: ")
-if type(a) and type(b) is int:
-    sum=a+b
-print(sum)
+# a=input("enter 1st no.: ")
+# b=input("enter 2nd no.: ")
+# try:
+#     total_sum=int(a)+int(b)
+#     print("the sum is: ", total_sum)
+# except ValueError:
+#     print("error: one or both inputs are not valid integers!")
+
+string=input("enter the no. string to input")
+if string.isdigit():
+    integer=int(string)
+    print("string in integer form: ", integer)
+elif string.isdecimal():
+    decimal=float(string)
+    print("string in decimal form: ", decimal)
+else:
+    print(string, " is not numerical type")
+    
