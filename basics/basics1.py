@@ -760,13 +760,87 @@
 # except ValueError:
 #     print("error: one or both inputs are not valid integers!")
 
-string=input("enter the no. string to input")
-if string.isdigit():
-    integer=int(string)
-    print("string in integer form: ", integer)
-elif string.isdecimal():
-    decimal=float(string)
-    print("string in decimal form: ", decimal)
-else:
-    print(string, " is not numerical type")
+# string=input("enter the no. string to input")
+# if string.isdigit():
+#     integer=int(string)
+#     print("string in integer form: ", integer)
+# elif string.isdecimal():
+#     decimal=float(string)
+#     print("string in decimal form: ", decimal)
+# else:
+#     print(string, " is not numerical type")
     
+# string=input("enter the string: ")
+# string_clean=string.strip()
+# if string_clean == "":
+#     print("operation aborted: you didn't typed anthing")
+# elif string_clean.isdigit():
+#     string_integer=int(string_clean)
+#     print("string in integer form is: ", string_integer)
+# elif string_clean.count('.')==1 and string_clean.replace('.','',1).isdigit():
+#     string_decimal=float(string_clean)
+#     print("string in decimal form: ", string_decimal)
+# else:
+#     print(string, "is not of numeric type")
+
+# string=input("enter the string: ")
+# string_clean=string.strip()
+# try:
+#     if string_clean=="":
+#         raise ValueError("blank input")
+#     elif string_clean.isdigit():
+#         parsed_result=int(string_clean)
+#         detected_type="integer"
+#     else:
+#         parsed_result=float(string_clean)
+#         detected_type="decimal"
+# except ValueError:
+#     if string_clean == "":
+#         print("string can't be blank")
+#     else:
+#         print("string is not numeric type")
+# else:
+#     print(f"{string} is of {detected_type} datatype")
+# finally:
+#     print("parsing execution round finished")
+
+# x="01234567"
+# print(float(x))
+# print(int(x))
+
+# from math import sqrt
+# a=float(input("enter 1st side: "))
+# b=float(input("enter 2nd side: "))
+# c=sqrt((a*a)+(b*b))
+# print("third side is: ", c)
+
+
+# from math import sqrt
+# from pickle import FALSE
+# a=input("enter 1st side: ").strip()
+# b=input("enter 2nd side: ").strip()
+# def is_valid_positive_integer(user_input_length):
+#     if user_input_length=="":
+#         return FALSE
+#     elif user_input_length.isdigit():
+#         return float(user_input_length)>0
+#     elif user_input_length.count('.')==1 and user_input_length.replace('.','',1).isdigit():
+#         return float(user_input_length)>0
+#     else:
+#         return False
+# if not is_valid_positive_integer(a) or not is_valid_positive_integer(b):
+#     print("validation error: inputs can't be blank and must be positive integer")
+# else:
+#     base=float(a)
+#     height=float(b)
+#     hypotenuese=float(sqrt((base**2)+(height**2)))
+# print(f"hypotenuese is: {hypotenuese:.2f}")
+
+from math import sqrt
+a=float(input("enter 1st side: "))
+b=float(input("enter 2nd side: "))
+try:
+    if a=="" or b=="":
+        raise ValueError("blank input")
+    elif a.isdigit() and b.isdigit():
+        
